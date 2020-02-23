@@ -226,6 +226,12 @@ a:hover{
         font-size: 12px;
         line-height: 22px;
         text-align: justify;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        -moz-webkit-box-orient: vertical;
     }
 
     .description h3 {
