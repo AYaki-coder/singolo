@@ -8,7 +8,7 @@
 background-color-header: #2d303a;
 border-bottom-color-h: #323746
  background-color-section: #f06c64; 
- border-bottom-color-sec: #ea676b;
+ border-bottom-color-sec:
  background-color-services: #f2f2f2;
  border-bottom-color-ser: #ffffff;
  interactivity-color: #f06c64;
@@ -42,36 +42,128 @@ h1{
     font-size: 25px;
     letter-spacing:-0.5px;
     line-height: 34px;
-    font-weight: 600;
+    font-weight: 400;
     
    
 }
 .header div{
     display:flex;
     justify-content: space-between;
-
 }
+.snowflake{
+        color: #f06c64;
+}
+
+
 nav{
-    width:371px;
+    width:370px;
     
 }
  ul {
     display:flex;
-    justify-content: space-between;
-
+     justify-content: space-between; 
+    
      
 }
-.snowflake{
-    color: #f06c64;
-}
+
 li{
     font-size: 12px;
-    /* text-align: right; */
+    text-align: justify; 
     padding:42px 0 32px;
-    list-style-type:"·      ";
+    list-style-type:"·       ";
     letter-spacing: -0.2px;
     font-weight: 400;
 }
    li:first-child{
        list-style: none;
    } 
+   .slider {
+       height:600px;
+       background-color: #f06c64;
+       box-sizing:border-box;
+       border-bottom: 6px solid #ea676b;
+         
+   }
+   .services{
+       background-color: #f2f2f2;
+       border-bottom: 6px solid  #ffffff;
+       color: #666d89;
+   }
+
+   .underheading{
+     font-size: 30px; 
+     font-weight: 900;
+    text-align: left;
+    margin: 0 0 18px;
+    padding-top:60px;
+    letter-spacing: -0.2px;
+   }
+    .underheading+p{    
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 300;
+    text-align: left;
+    margin-bottom: 42px;
+
+    }
+    .columns-3 {
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-between; 
+        margin-bottom: 34px;
+
+    }
+    .item{
+        width: 32%;
+        display:flex;
+        margin-bottom: 26px;
+      
+    }
+    .description {
+        padding-left: 5px;
+        width:75%;
+    }
+    .description p{
+        font-size: 12px;
+        line-height: 22px;
+        text-align: justify;
+       
+    }
+    .description h3 {
+    font-size: 18px;
+    font-weight: 900;
+    text-align: left;
+   margin-bottom: 8px;
+    
+    
+    }
+    .icon{
+        /* width:300px;
+        height: 300px; */
+        
+        background-position:0px 4px ; 
+        background-repeat: no-repeat;
+       
+        width:25%;  
+    }
+    .icon-1 {
+        background-image: url("./assets/icons/pen.png");
+
+    }
+    .icon-2{
+         background-image: url("./assets/icons/bulb.png"); 
+        
+    }
+    .icon-3 {
+        background-image: url("./assets/icons/heart.png");
+    }
+    .icon-4{
+        background-image: url("./assets/icons/phone.png");
+    }
+    .icon-5{
+        background-image:url("./assets/icons/bubble.png");
+    }
+    .icon-6{
+        background-image:url("./assets/icons/star.png");
+    }
+    
