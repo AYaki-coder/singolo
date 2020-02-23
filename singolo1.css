@@ -203,13 +203,13 @@ a:hover{
         display:flex;
         flex-wrap: wrap;
         justify-content: space-between; 
-        margin-bottom: 34px;
+        margin-bottom: 32px;
     }
 
     .item{
         width: 32%;
         display:flex;
-        margin-bottom: 26px;
+        margin-bottom: 27px;
         }
 
     .description {
