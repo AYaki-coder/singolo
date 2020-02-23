@@ -31,7 +31,8 @@ h1{
     font-weight: 400;
 }
 
-.header div{
+ .header div{ 
+
     display:flex;
     justify-content: space-between;
 }
@@ -62,6 +63,16 @@ li:first-child{
     list-style: none;
    } 
 
+.nav-bar a{
+text-decoration: none;
+color:white;
+}
+a:hover{
+    cursor: pointer;
+    color:#f06c64;
+}
+
+
  .slider {
     height:600px;
      background-color: #f06c64;
@@ -74,6 +85,10 @@ li:first-child{
        width:16px;
        height:27px;
        background: url("./assets/icons/icon-button.png") no-repeat; 
+    }
+    .button:hover{
+        cursor:pointer;
+      
     }
     .button_left{
         position: absolute;
