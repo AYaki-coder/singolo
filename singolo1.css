@@ -2,68 +2,51 @@
     margin:0;
     padding:0;
 }
-/* font-family: 'Lato', sans-serif ;
-} */
-/*
-background-color-header: #2d303a;
-border-bottom-color-h: #323746
- background-color-section: #f06c64; 
- border-bottom-color-sec:
- background-color-services: #f2f2f2;
- border-bottom-color-ser: #ffffff;
- interactivity-color: #f06c64;
- font-header-color:#ffffff;
- font-services-color:#666d89;
-как перевернуть тень
- margin-inline-start: 20px;
-    writing-mode: vertical-rl;
 
-*/
 body{
     font-family: 'Lato', Verdana sans-serif ;
 }
 
 .wrapper{
     width: 1020px;
-    margin-right:auto;
+    margin:auto;
 }
+
 .container{
     width:940px;
     margin:0 auto;
-  
 }
+
 .header{
     color:#ffffff;
     background-color: #2d303a ;
     border-bottom: 6px solid  #323746;
 }
+
 h1{
     padding: 27px 0 28px;
     font-size: 25px;
     letter-spacing:-0.5px;
     line-height: 34px;
     font-weight: 400;
-    
-   
 }
+
 .header div{
     display:flex;
     justify-content: space-between;
 }
-.snowflake{
-        color: #f06c64;
-}
 
+.snowflake{
+    color: #f06c64;
+}
 
 nav{
     width:370px;
-    
 }
+
  ul {
     display:flex;
      justify-content: space-between; 
-    
-     
 }
 
 li{
@@ -74,16 +57,91 @@ li{
     letter-spacing: -0.2px;
     font-weight: 400;
 }
-   li:first-child{
-       list-style: none;
+
+li:first-child{
+    list-style: none;
    } 
-   .slider {
-       height:600px;
-       background-color: #f06c64;
-       box-sizing:border-box;
-       border-bottom: 6px solid #ea676b;
-         
+
+ .slider {
+    height:600px;
+     background-color: #f06c64;
+  box-sizing:border-box;
+    border-bottom: 6px solid #ea676b;
+    }
+
+ .slider1{
+        box-sizing: border-box;
+        padding-top:5px;
+        width: 940px;
+        height: 600px;
+        display:inline-block;
+        position:relative;
+    }
+
+    .slider1 div{
+        margin-right: 0;
+    } 
+   
+   .iphone-1{
+       position: absolute;
+      display: inline-block;
+       width: 240px;
+       height: 484px; 
+       background:
+         url("./assets/img/Base.png") no-repeat  0 0,
+          url("./assets/img/Shadow.png") no-repeat 0 0; 
+        top:53px;
+         left:72px;
    }
+
+   .screen-1{
+       width: 188px;
+       height: 333px;
+       position: absolute;
+       background: url(./assets/img/iphone-v-bg.png) no-repeat -14px -135px;
+       top:65px;
+       left:14px;
+   }
+
+   .iphone-2{
+    display: inline-block;
+    width:500px;
+    height: 500px; 
+    position: absolute;
+    top:1px;
+    left:385px;
+   }
+
+   .iphone-horizontal{
+    background:  url("./assets/img/Base.png") no-repeat;
+    width: 240px;
+    height: 484px; 
+    transform: rotate(90deg);
+    margin-right: 0;
+    position:absolute;
+    left:96px;
+    top:51px;
+   }
+
+   .shadow {
+    width: 300px;
+    height: 600px; 
+    background:  url("./assets/img/Shadow.png") no-repeat;
+    transform: rotate(90deg) scaleX(-1);
+    position: absolute;
+    left:34px;
+    bottom:-63px; 
+   }
+    
+   .screen-2{
+    width: 333px;
+    height: 188px;
+    position: absolute;
+    background: url(./assets/img/iphone-h-bg.png) no-repeat -125px -119px;
+    top:187px;
+    left:60px;
+   }
+   
    .services{
        background-color: #f2f2f2;
        border-bottom: 6px solid  #ffffff;
@@ -98,72 +156,74 @@ li{
     padding-top:60px;
     letter-spacing: -0.2px;
    }
+
     .underheading+p{    
     font-size: 18px;
     line-height: 30px;
     font-weight: 300;
     text-align: left;
     margin-bottom: 42px;
-
     }
+
     .columns-3 {
         display:flex;
         flex-wrap: wrap;
         justify-content: space-between; 
         margin-bottom: 34px;
-
     }
+
     .item{
         width: 32%;
         display:flex;
         margin-bottom: 26px;
-      
-    }
+        }
+
     .description {
         padding-left: 5px;
         width:75%;
     }
+
     .description p{
         font-size: 12px;
         line-height: 22px;
         text-align: justify;
-       
     }
+
     .description h3 {
     font-size: 18px;
     font-weight: 900;
     text-align: left;
    margin-bottom: 8px;
-    
-    
     }
+
     .icon{
-        /* width:300px;
-        height: 300px; */
-        
         background-position:0px 4px ; 
         background-repeat: no-repeat;
-       
         width:25%;  
     }
+
     .icon-1 {
         background-image: url("./assets/icons/pen.png");
-
     }
+
     .icon-2{
          background-image: url("./assets/icons/bulb.png"); 
-        
     }
+
     .icon-3 {
         background-image: url("./assets/icons/heart.png");
     }
+
     .icon-4{
         background-image: url("./assets/icons/phone.png");
     }
+
     .icon-5{
         background-image:url("./assets/icons/bubble.png");
     }
+
     .icon-6{
         background-image:url("./assets/icons/star.png");
     }
+
     
