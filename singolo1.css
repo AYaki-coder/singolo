@@ -54,13 +54,18 @@ li{
     font-size: 12px;
     text-align: justify; 
     padding:42px 0 32px;
-    list-style-type:"·       ";
+    list-style-type:none;
     letter-spacing: -0.2px;
     font-weight: 400;
 }
+li:before{
+    color:#494e62;
+    content: "·";
+    padding-right: 14px;
+}
 
-li:first-child{
-    list-style: none;
+.first:before{
+   display: none;
    } 
 
 .nav-bar a{
@@ -188,7 +193,7 @@ a:hover{
     text-align: left;
     margin: 0 0 18px;
     padding-top:60px;
-    letter-spacing: -0.2px;
+    
    }
 
     .underheading+p{    
