@@ -1,0 +1,128 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: 'Lato', Verdana sans-serif ;
+}
+
+.wrapper{
+    width: 1020px;
+    /* margin:auto; */
+    margin-right:auto;
+}
+
+.container{
+    width:940px;
+    margin:0 auto;
+}
+
+.title {
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-weight: 900;
+    text-align: left;
+    letter-spacing: 0.2px;
+    
+
+}
+.portfolio__title{
+    margin-bottom: 27px;
+}
+.text{
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-weight: 300;
+    text-align: left;
+    letter-spacing: -0.2px;
+}
+
+.portfolio__text{ 
+    margin-bottom: 11px;
+}
+.portfolio{
+  background-color: #2d303a;
+  border-bottom:6px solid #323746;  
+  padding:69px 0 67px;
+}
+.portfolio__tagbox{
+    width: 288px;
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 19px;
+}
+.portfolio__tag{
+  box-sizing: border-box;
+  border: 1px solid #666d89;
+  border-radius: 5px;
+  padding:0 6px 0;
+  font-size: 12px;
+  height: 22px; 
+  color: #767e9e;
+  font-weight: 400;
+  text-align: left;
+  line-height: 19px;
+}
+
+.portfolio__tag:first-child{
+    margin-left: 1px;
+}
+
+
+.tag_selected{
+    border: 1px solid #c5c5c5;
+    color: #dedede;
+}
+.portfolio__album{
+    height:601px;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+    overflow:hidden;
+}
+.portfolio__pics{
+    width:220px;
+    height:187px;
+    background-color: #464b5e;
+}
+.pic_01{
+    background: url(./assets/img/Portfolio/Portfolio1.jpg) no-repeat -8px -11px;
+}
+.pic_02{
+    background: url(./assets/img/Portfolio/Portfolio2.jpg) no-repeat -82px  -43px;
+}
+.pic_03{
+    background: url(./assets/img/Portfolio/Portfolio3.jpg) no-repeat -11px  -1px;
+}
+.pic_04{
+    background: url(./assets/img/Portfolio/Portfolio4.jpg) no-repeat -24px  -2px;
+}
+.pic_05{
+    background: url(./assets/img/Portfolio/Portfolio5.jpg) no-repeat -10px  -16px;
+}
+.pic_06{
+    background: url(./assets/img/Portfolio/Portfolio6.jpg) no-repeat -16px  -4px;
+}
+.pic_07{
+    background: url(./assets/img/Portfolio/Portfolio7.jpg) no-repeat -31px  -39px;
+}
+.pic_08{
+    background: url(./assets/img/Portfolio/Portfolio8.jpg) no-repeat -24px  -32px;
+}
+.pic_09{
+    background: url(./assets/img/Portfolio/Portfolio9.jpg) no-repeat -16px  -2px;
+}
+.pic_10{
+    background: url(./assets/img/Portfolio/Portfolio10.jpg) no-repeat -141px  -113px;
+}
+.pic_11{
+    background: url(./assets/img/Portfolio/Portfolio11.jpg) no-repeat -144px  -175px;
+}
+.pic_12{
+    background: url(./assets/img/Portfolio/Portfolio12.jpg) no-repeat -36px  -60px;
+}
+
