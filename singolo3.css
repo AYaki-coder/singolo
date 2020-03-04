@@ -186,9 +186,6 @@ padding-left: 23px;
     width:32px;
     height:32px;
     background-repeat: no-repeat;
-    background-position: -1px -1px;
-    box-sizing: border-box;
-    border:1px solid #6a718c;
     border-radius: 50%;
 }
 .social-link a{
