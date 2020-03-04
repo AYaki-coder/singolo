@@ -109,7 +109,7 @@ textarea{
     height: 40px;
     font-size: 16px;
     margin-bottom: 11px;
-    border:2px dashed #d6564f;
+    border:none;
 }
 .get-a-quote__subtitle{
     font-size: 18px;
