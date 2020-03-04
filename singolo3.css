@@ -87,6 +87,7 @@ input{
 
 textarea{
     height: 202px;
+    resize: none;
     padding-top: 7px;
 }
 .submitbutton{
