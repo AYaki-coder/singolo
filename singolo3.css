@@ -8,8 +8,8 @@ body{
 
 .wrapper{
     width: 1020px;
-    /* margin:auto; */
-    margin-right: auto;
+    margin:auto;
+   
   
 }
 
@@ -144,4 +144,61 @@ padding-left: 23px;
     background-position: 0px 7px;
     background-image: url("./assets/Get_a_Quote/mail.svg");
 }
+.site-footer{
+    background-color: #2d303a;
+    padding: 22px 0 22px;
+}
+.site-footer__columns{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.copyrightsign{
+    font-size: 11px; 
+    letter-spacing: 0px; 
+    
+}
+.site-footer__copyright{
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: -0.1px;
+    font-weight: 400;
+    padding-left: 1px;
+    text-align: left;
+    color:#666d89;
+}
+.social-link-block{
+    display: flex;
+    width:152px;
+    height:32px;
+    justify-content: space-between;
+}
+.social-link{
+    width:32px;
+    height:32px;
+    background-repeat: no-repeat;
+    background-position: -1px -1px;
+    box-sizing: border-box;
+    border:1px solid #6a718c;
+    border-radius: 50%;
+}
+.social-link a{
+display: block;
+}
 
+.social-link:hover{
+    cursor:pointer;
+    background-color: #dadada;
+}
+ .link-fb{
+    background-image: url(./assets/SocNet-icons/FB.svg);
+}
+.link-g_plus{
+    background-image: url(./assets/SocNet-icons/google.svg);
+}
+.link-tw{
+    background-image: url(./assets/SocNet-icons/twitter.svg);
+}
+.link-li{
+    background-image: url(./assets/SocNet-icons/LI.svg);
+} 
