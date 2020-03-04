@@ -1,0 +1,145 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: "Lato", Verdana sans-serif ;
+}
+
+.wrapper{
+    width: 1020px;
+    /* margin:auto; */
+    margin-right: auto;
+  
+}
+
+.container{
+    width:940px;
+    margin:0 auto;
+}
+.title {
+    font-size: 30px;
+    line-height: 18px;
+    color: #f0d8d9;
+    font-weight: 900;
+    text-align: left;
+    letter-spacing: -0.2px;
+    margin-bottom: 27px;
+}
+.get-a-quote{
+    background-color: #f06c64;
+    border-bottom:6px solid #ea676b;  
+    padding:68px 0 67px;
+}
+.text{
+    font-size: 18px;
+    line-height: 30px;
+    color:  #f0d8d9;
+    font-weight: 300;
+    text-align: left;
+    letter-spacing: -0.2px;
+    margin-bottom: 44px;
+}
+.get-a-quote__columns{
+    display:grid;
+    grid-template-columns: auto 300px;
+    gap: 20px;
+}
+form {
+    grid-column: 1/2;
+}
+input,
+textarea{
+    display:block;
+    box-sizing: border-box;
+    border:none;
+    border-radius: 5px;
+    background-color: #d6564f;
+    margin-bottom: 16px;
+    width:619px;
+    padding-left: 14px;
+    font-family: "Lato", Verdana sans-serif ;
+    font-size: 12px;
+    line-height: 22px;
+    color: #f0d8d9;
+    font-weight: 400;
+    text-align: left;
+}
+
+input::placeholder,
+textarea::placeholder{
+    font-family: "Lato", Verdana sans-serif ;
+    font-size: 12px;
+    line-height: 22px;
+    color: #f48c8f;
+    font-weight: 400;
+    text-align: left;
+}
+input{
+    height:38px;
+    padding-bottom: 1px;
+    letter-spacing: 0.1px;
+}
+
+textarea{
+    height: 202px;
+    padding-top: 7px;
+}
+.submitbutton{
+    width: 100px;
+    border:2px solid #d6564f;
+    font-family: "Lato", Verdana sans-serif ;
+    font-size: 14px;
+    line-height: 22px;
+    color: #d6564f;
+    font-weight: 900;
+    text-align: center;
+    padding-left: 0px;
+    background-color:#f0d8d9;
+}
+.get-a-quote__info{
+    grid-column: 2/3;
+}
+.get-a-quote__subtitle{
+    font-size: 18px;
+    line-height: 19px;
+    color: #f0d8d9;
+    font-weight: 900;
+    text-align: left;
+    letter-spacing: 0.1px;
+    margin-bottom: 9px;
+}
+.get-a-quote__description{
+font-size: 12px;
+line-height: 22px;
+color: #f0d8d9;
+font-weight: 400;
+text-align: left;
+margin-bottom: 20px;
+}
+.get-a-quote a{
+display:block;
+text-decoration: none;
+font-size: 12px;
+line-height: 22px;
+letter-spacing: -0.1px;
+color: #f0d8d9;
+font-weight: 400;
+text-align: left;
+background-repeat: no-repeat; 
+
+padding-left: 23px;
+}
+.get-a-quote__adress{
+    background-position: 3px 5px;
+    background-image: url("./assets/Get_a_Quote/location.svg");
+}
+.get-a-quote__tel{
+    background-position: 1px 4px;
+    background-image: url("./assets/Get_a_Quote/phone.svg"); 
+}
+.get-a-quote__email{
+    background-position: 0px 7px;
+    background-image: url("./assets/Get_a_Quote/mail.svg");
+}
+
