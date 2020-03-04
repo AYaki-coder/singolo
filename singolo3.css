@@ -102,6 +102,15 @@ textarea{
     background-color:#f0d8d9;
     margin-bottom: 13px;
 }
+.submitbutton:hover{
+    cursor: pointer;
+    background-color: #f2f2f2;
+    width:120px;
+    height: 40px;
+    font-size: 16px;
+    margin-bottom: 11px;
+    border:2px dashed #d6564f;
+}
 .get-a-quote__subtitle{
     font-size: 18px;
     line-height: 19px;
@@ -188,7 +197,7 @@ display: block;
 
 .social-link:hover{
     cursor:pointer;
-    background-color: #dadada;
+    background-color: #f06c6440;
 }
  .link-fb{
     background-image: url(./assets/SocNet-icons/FB.svg);
