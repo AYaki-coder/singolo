@@ -207,7 +207,7 @@ color: #666d89;
 }
 .subtitle-text{
 font-size: 12px;
-line-height: 22px;
+line-height: 21px;
 color: #767e9e;
 font-weight: 400;
 text-align: justify;
@@ -233,14 +233,14 @@ width:300px;
 .services__details{
     width: 300px;
     display:flex;
-    margin-bottom: 30px;
+    margin-bottom: 29px;
 }
 .promotext{
     padding-left: 5px;
      width:75%;
 }
 .services__subtitle{
-    margin-bottom: 8px;
+    margin-bottom: 9px;
 }
 .services__description{
     text-align: justify;
