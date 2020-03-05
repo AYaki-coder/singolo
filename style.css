@@ -231,9 +231,9 @@ flex-wrap:wrap;
 width:300px;
 }
 .services__details{
-    width: 300px;
+    
     display:flex;
-    margin-bottom: 29px;
+    margin-bottom: 32px;
 }
 .promotext{
     padding-left: 5px;
