@@ -18,9 +18,12 @@
                     <h1 class="site-header__logo logo" id="home">singolo<span class="snowflake">*</span></h1>
                     <nav class="site-header__nav-bar nav-bar">
                         <ul class="site-header__navigation">
-                            <li class="site-header__nav-element"><a class="navigation-link link_selected" href="#home">HOME</a></li>
-                            <li class="site-header__nav-element"><a class="navigation-link" href="#services">SERVICES</a></li>
-                            <li class="site-header__nav-element"><a class="navigation-link" href="#portfolio">PORTFOLIO</a></li>
+                            <li class="site-header__nav-element"><a class="navigation-link link_selected"
+                                    href="#home">HOME</a></li>
+                            <li class="site-header__nav-element"><a class="navigation-link"
+                                    href="#services">SERVICES</a></li>
+                            <li class="site-header__nav-element"><a class="navigation-link"
+                                    href="#portfolio">PORTFOLIO</a></li>
                             <li class="site-header__nav-element"><a class="navigation-link" href="#about-us">ABOUT</a></li>
                             <li class="site-header__nav-element"><a class="navigation-link" href="#contact">CONTACT</a></li>
                         </ul>
@@ -29,24 +32,20 @@
             </div>
         </header>
         <main class="main">
-
             <section class="slider">
-                <button class="button button_left" type="button"></button>
-                <button class="button button_right" type="button"></button>
+                <button class="slider__button button_left" type="button"></button>
+                <button class="slider__button button_right" type="button"></button>
                 <div class="container">
-                    <div class="slider1">
-                        <div class="iphone-1">
+                    <div class="slider__slide slide1">
+                        <div class="slider__phones phone-1">
                             <div class="screen-1"></div>
                         </div>
-
-                        <div class="iphone-2">
+                        <div class="slider__phones phone-2">
                             <div class="shadow"></div>
-                            <div class="iphone-horizontal"></div>
+                            <div class="phone-horizontal"></div>
                             <div class="screen-2"></div>
                         </div>
                     </div>
-
-
                 </div>
             </section>
             <section class="services">
@@ -62,7 +61,7 @@
                     <div class="services__columns columns-3">
                         <div class="services__details column">
                             <div class="services__icon icon-1"></div>
-                            <div class="promotext">
+                            <div class="promo-text">
                                 <h3 class="services__subtitle subtitle">Custom Design</h3>
                                 <p class="services__description subtitle-text">Curabitur vestibulum eget mauris quis
                                     laoreet. Phasellus in quam
@@ -72,7 +71,7 @@
                         </div>
                         <div class="services__details column">
                             <div class="services__icon icon-2"></div>
-                            <div class="promotext">
+                            <div class="promo-text">
                                 <h3 class="services__subtitle subtitle">Inovative Ideas</h3>
                                 <p class="services__description subtitle-text">Quisque luctus, quam eget molestie
                                     commodo, lacus purus cursus
@@ -83,7 +82,7 @@
                         </div>
                         <div class="services__details column">
                             <div class="services__icon icon-3"></div>
-                            <div class="promotext">
+                            <div class="promo-text">
                                 <h3 class="services__subtitle subtitle">Love Is The Answer</h3>
                                 <p class="services__description subtitle-text">Nulla sed nunc et tortor luctus faucibus.
                                     Morbi at aliquet turpis, et consequat
@@ -93,7 +92,7 @@
                         </div>
                         <div class="services__details column">
                             <div class="services__icon icon-4"></div>
-                            <div class="promotext">
+                            <div class="promo-text">
                                 <h3 class="services__subtitle subtitle">Responsive Layout</h3>
                                 <p class="services__description subtitle-text"> Sed porttitor placerat rhoncus. In at
                                     nunc tellus. Maecenas
@@ -104,7 +103,7 @@
                         </div>
                         <div class="services__details column">
                             <div class="services__icon icon-5"></div>
-                            <div class="promotext">
+                            <div class="promo-text">
                                 <h3 class="services__subtitle subtitle">24 / 7 Support</h3>
                                 <p class="services__description subtitle-text">Vivamus vel quam lacinia, tincidunt dui
                                     non, vehicula nisi. Nulla a
@@ -114,7 +113,7 @@
                         </div>
                         <div class="services__details column">
                             <div class="services__icon icon-6"></div>
-                            <div class="promotext">
+                            <div class="promo-text">
                                 <h3 class="services__subtitle subtitle">Feel Like A Star</h3>
                                 <p class="services__description subtitle-text">Quisque hendrerit purus dapibus, ornare
                                     nibh vitae, viverra nibh.
@@ -137,7 +136,7 @@
                         </p>
                     </div>
                     <div class="portfolio__gallery">
-                        <div class="portfolio__tagbox">
+                        <div class="portfolio__tag-box">
                             <div class="portfolio__tag tag_selected">All</div>
                             <div class="portfolio__tag">Web Design</div>
                             <div class="portfolio__tag">Graphic Design</div>
@@ -242,9 +241,8 @@
                     <div class="get-a-quote__header">
                         <h2 class="get-a-quote__title title" id="contact">Get a Quote</h2>
                         <div class="get-a-quote__text text">Fusce dapibus, tellus ac cursus commodo, tortor mauris
-                            condimentum.
-                            Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-                            Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
+                            condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio
+                            sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
                         </div>
                     </div>
                     <div class="get-a-quote__columns">
@@ -252,7 +250,7 @@
                             <input type="text" name="name" id="name" required placeholder="Name (Required)">
                             <input type="email" name="email" id="email" required placeholder="Email (Required)">
                             <input type="text" name="subject" id="subject" placeholder="Subject">
-                            <textarea name="promotext" id="promotext" cols="30" rows="6"
+                            <textarea name="promo-text" id="promo-text" cols="30" rows="6"
                                 placeholder="Describe your project in detail..."></textarea>
                             <input class="submitbutton" type="submit" value="Send">
                         </form>
@@ -280,7 +278,6 @@
                     </div>
                 </div>
             </section>
-
         </main>
         <footer class="site-footer">
             <div class="container">
