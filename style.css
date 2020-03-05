@@ -183,7 +183,7 @@ a:hover{
 font-size: 30px;
 line-height: 18px;
 color:#666d89;
-/* color: #f0d8d9; */
+/*  */
 font-weight: 900;
 text-align: left;
 letter-spacing: 0.2px;
@@ -194,7 +194,6 @@ margin-bottom: 27px;
 font-size: 18px;
 line-height: 30px;
 color: #767e9e;
-/* color:  #f0d8d9; */
 font-weight: 300;
 text-align: left;
 letter-spacing: -0.2px;
@@ -398,29 +397,26 @@ padding:68px 0 67px;
     }
 .about-us__name{
     box-sizing: border-box;
-    /* height:4px; */
-    /* font-size: 18px;
-    line-height: 53px;
-    font-weight: 900;
-    text-align: left; */
     overflow: hidden;
     text-overflow: ellipsis;
     margin-bottom: 9px;
     }
 .about-us__description{
-    /* width: 300px;
-    height: 60px;
-    font-size: 12px; */
     line-height: 21px;
-    /* color: #767e9e;
-    font-weight: 400; */
     text-align: left;
+    margin-bottom: 24px;
     }
 
 .get-a-quote{
 background-color: #f06c64;
 border-bottom:6px solid #ea676b;  
 padding:68px 0 0px;
+}
+.get-a-quote__title{
+color: #f0d8d9;
+}
+.get-a-quote__text{
+color:  #f0d8d9;
 }
 
 .get-a-quote__columns{
