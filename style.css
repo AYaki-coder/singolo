@@ -183,7 +183,6 @@ a:hover{
 font-size: 30px;
 line-height: 18px;
 color:#666d89;
-/*  */
 font-weight: 900;
 text-align: left;
 letter-spacing: 0.2px;
@@ -195,9 +194,8 @@ font-size: 18px;
 line-height: 30px;
 color: #767e9e;
 font-weight: 300;
-text-align: left;
+text-align: justify;
 letter-spacing: -0.2px;
-/* margin-bottom: 44px;  1-я 42 в портфолио 11*/
 }
 .subtitle{
 font-weight: 900;
@@ -212,7 +210,7 @@ font-size: 12px;
 line-height: 22px;
 color: #767e9e;
 font-weight: 400;
-text-align: left;
+text-align: justify;
 }
 .services{
 background-color: #f2f2f2;
@@ -418,6 +416,9 @@ color: #f0d8d9;
 .get-a-quote__text{
 color:  #f0d8d9;
 }
+.get-a-quote__header{
+margin-bottom: 44px;
+}
 
 .get-a-quote__columns{
 display:grid;
@@ -429,8 +430,8 @@ grid-column: 1/2;
 }
 .get-a-quote__info{
 grid-column: 2/3;
-
 }
+
 input,
 textarea{
 display:block;
@@ -493,18 +494,13 @@ border:none;
 }
 .get-a-quote__subtitle{
 font-size: 18px;
-
 color: #f0d8d9;
-
 margin-bottom: 9px;
 }
 .get-a-quote__description{
-font-size: 12px;
-line-height: 22px;
 color: #f0d8d9;
-font-weight: 400;
-text-align: left;
 margin-bottom: 20px;
+text-align: justify;
 }
 .get-a-quote a{
 display:block;
