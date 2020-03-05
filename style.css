@@ -231,7 +231,6 @@ flex-wrap:wrap;
 width:300px;
 }
 .services__details{
-    
     display:flex;
     margin-bottom: 32px;
 }
@@ -493,26 +492,21 @@ margin-bottom: 11px;
 border:none;
 }
 .get-a-quote__subtitle{
-font-size: 18px;
 color: #f0d8d9;
 margin-bottom: 9px;
 }
 .get-a-quote__description{
 color: #f0d8d9;
+line-height: 22px;
 margin-bottom: 20px;
 text-align: justify;
 }
 .get-a-quote a{
 display:block;
 text-decoration: none;
-font-size: 12px;
-line-height: 22px;
 letter-spacing: -0.1px;
 color: #f0d8d9;
-font-weight: 400;
-text-align: left;
 background-repeat: no-repeat; 
-
 padding-left: 23px;
 }
 .get-a-quote__adress{
