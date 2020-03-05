@@ -514,11 +514,11 @@ background-position: 3px 5px;
 background-image: url("./assets/Get_a_Quote/location.svg");
 }
 .get-a-quote__tel{
-background-position: 1px 4px;
+background-position: 1px 5px;
 background-image: url("./assets/Get_a_Quote/phone.svg"); 
 }
 .get-a-quote__email{
-background-position: 0px 7px;
+background-position: 0px 9px;
 background-image: url("./assets/Get_a_Quote/mail.svg");
 }
 .site-footer{
