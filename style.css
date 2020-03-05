@@ -372,6 +372,7 @@ background: url(./assets/img/about_us/photo3.jpg) no-repeat 0 0;
 }
 .about-us__name{
 box-sizing: border-box;
+height: 19px;
 overflow: hidden;
 text-overflow: ellipsis;
 margin-bottom: 9px;
