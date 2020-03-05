@@ -24,7 +24,6 @@ padding:40px 0 32px;
 }
 
 .logo{
-/* padding: 27px 0 28px; */
 text-transform: uppercase;
 font-size: 25px;
 letter-spacing:-0.5px;
@@ -51,6 +50,7 @@ justify-content: space-between;
 .site-header__nav-element{
 font-size: 12px;
 text-align: justify; 
+text-decoration: none;
 
 list-style-type:none;
 letter-spacing: -0.2px;
@@ -66,15 +66,17 @@ padding-right: 14px;
 display: none;
 } 
 
-.nav-bar a{
+.navigation-link{
 text-decoration: none;
 color:white;
 }
-a:hover{
+.navigation-link:hover{
 cursor: pointer;
 color:#f06c64;
 }
-
+.link_selected{
+color:#f06c64;
+}
 
 .slider {
 height:600px;
