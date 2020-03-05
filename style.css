@@ -7,8 +7,7 @@ font-family: "Lato", Verdana sans-serif ;
 }
 .wrapper{
 width: 1020px;
-/* margin:auto; */
-margin-right:auto;
+margin:auto;
 }
 .container{
 width:940px;
@@ -53,11 +52,9 @@ color:#494e62;
 content: "·";
 padding-right: 14px;
 }
-
 .site-header__nav-element:first-child::before{
 display: none;
 } 
-
 .navigation-link{
 text-decoration: none;
 color:white;
@@ -69,7 +66,6 @@ color:#f06c64;
 .link_selected{
 color:#f06c64;
 }
-
 .slider {
 height:600px;
 background-color: #f06c64;
@@ -77,7 +73,6 @@ box-sizing:border-box;
 border-bottom: 6px solid #ea676b;
 position: relative;
 }
-
 .slider__button{
 border: none;
 width: 46px;
