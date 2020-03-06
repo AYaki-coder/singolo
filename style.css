@@ -502,9 +502,10 @@ display:flex;
 justify-content: space-between;
 align-items: center;
 }
-.copyright-sign{
-font-size: 11px; 
-letter-spacing: 0px; 
+.copyright-text+.copyright-text::before{
+color:#494e62;
+content: "·";
+padding-right:2px;
 }
 .site-footer__copyright{
 line-height: 22px;
