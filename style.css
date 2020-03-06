@@ -438,6 +438,10 @@ height:38px;
 padding-bottom: 1px;
 letter-spacing: 0.1px;
 }
+input[required]:invalid:focus{
+    border: 2px solid red;
+    padding-left: 13px;
+}
 textarea{
 height: 202px;
 resize: none;
