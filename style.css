@@ -435,6 +435,9 @@ color: #f48c8f;
 font-weight: 400;
 text-align: left;
 }
+input::-moz-placeholder{
+line-height: 36px;
+}
 input{
 height:38px;
 padding-bottom: 1px;
