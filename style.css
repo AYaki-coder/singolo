@@ -374,6 +374,7 @@ background: url(./assets/img/about_us/photo3.jpg) no-repeat 0 0;
 box-sizing: border-box;
 height: 19px;
 overflow: hidden;
+white-space: nowrap;
 text-overflow: ellipsis;
 margin-bottom: 9px;
 }
@@ -439,8 +440,8 @@ padding-bottom: 1px;
 letter-spacing: 0.1px;
 }
 input[required]:invalid:focus{
-    border: 2px solid red;
-    padding-left: 13px;
+border: 2px solid red;
+padding-left: 13px;
 }
 textarea{
 height: 202px;
