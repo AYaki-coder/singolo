@@ -410,6 +410,7 @@ grid-column: 2/3;
 }
 input,
 textarea{
+outline: none;
 display:block;
 box-sizing: border-box;
 border:none;
