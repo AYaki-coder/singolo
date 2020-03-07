@@ -77,7 +77,7 @@ position: relative;
 border: none;
 width: 46px;
 height: 46px;
-background: url(./assets/icons/icon-button.png) no-repeat 13px 50%;
+background: url("./assets/icons/icon-button.png") no-repeat 13px 50%;
 border-radius: 50%;
 z-index: 1;
 }
@@ -122,7 +122,7 @@ left:72px;
 width: 188px;
 height: 333px;
 position: absolute;
-background: url(./assets/img/iphone-v-bg.png) no-repeat -14px -135px;
+background: url("./assets/img/iphone-v-bg.png") no-repeat -14px -135px;
 top:65px;
 left:14px;
 }
@@ -157,7 +157,7 @@ bottom:-63px;
 width: 333px;
 height: 188px;
 position: absolute;
-background: url(./assets/img/iphone-h-bg.png) no-repeat -125px -119px;
+background: url("./assets/img/iphone-h-bg.png") no-repeat -125px -119px;
 top:187px;
 left:60px;
 }
@@ -313,40 +313,40 @@ background-color: #464b5e;
 margin-bottom: 20px;
 }
 .pic_01{
-background: url(./assets/img/Portfolio/Portfolio1.jpg) no-repeat -8px -11px;
+background: url("./assets/img/Portfolio/portfolio1.jpg") no-repeat -8px -11px;
 }
 .pic_02{
-background: url(./assets/img/Portfolio/Portfolio2.jpg) no-repeat -82px  -43px;
+background: url("./assets/img/Portfolio/portfolio2.jpg") no-repeat -82px  -43px;
 }
 .pic_03{
-background: url(./assets/img/Portfolio/Portfolio3.jpg) no-repeat -11px  -1px;
+background: url("./assets/img/Portfolio/portfolio3.jpg") no-repeat -11px  -1px;
 }
 .pic_04{
-background: url(./assets/img/Portfolio/Portfolio4.jpg) no-repeat -24px  -2px;
+background: url("./assets/img/Portfolio/portfolio4.jpg") no-repeat -24px  -2px;
 }
 .pic_05{
-background: url(./assets/img/Portfolio/Portfolio5.jpg) no-repeat -10px  -16px;
+background: url("./assets/img/Portfolio/portfolio5.jpg") no-repeat -10px  -16px;
 }
 .pic_06{
-background: url(./assets/img/Portfolio/Portfolio6.jpg) no-repeat -16px  -4px;
+background: url("./assets/img/Portfolio/portfolio6.jpg") no-repeat -16px  -4px;
 }
 .pic_07{
-background: url(./assets/img/Portfolio/Portfolio7.jpg) no-repeat -31px  -39px;
+background: url("./assets/img/Portfolio/portfolio7.jpg") no-repeat -31px  -39px;
 }
 .pic_08{
-background: url(./assets/img/Portfolio/Portfolio8.jpg) no-repeat -24px  -32px;
+background: url("./assets/img/Portfolio/portfolio8.jpg") no-repeat -24px  -32px;
 }
 .pic_09{
-background: url(./assets/img/Portfolio/Portfolio9.jpg) no-repeat -16px  -2px;
+background: url("./assets/img/Portfolio/portfolio9.jpg") no-repeat -16px  -2px;
 }
 .pic_10{
-background: url(./assets/img/Portfolio/Portfolio10.jpg) no-repeat -141px  -113px;
+background: url("./assets/img/Portfolio/portfolio10.jpg") no-repeat -141px  -113px;
 }
 .pic_11{
-background: url(./assets/img/Portfolio/Portfolio11.jpg) no-repeat -144px  -175px;
+background: url("./assets/img/Portfolio/portfolio11.jpg") no-repeat -144px  -175px;
 }
 .pic_12{
-background: url(./assets/img/Portfolio/Portfolio12.jpg) no-repeat -36px  -60px;
+background: url("./assets/img/Portfolio/portfolio12.jpg") no-repeat -36px  -60px;
 }
 .about-us{
 background-color: #f2f2f2;
@@ -362,13 +362,13 @@ background-color:#464b5e;
 margin-bottom: 17px;
 }
 .photo1{
-background: url(./assets/img/about_us/photo1.jpg) no-repeat 0 0;
+background: url("./assets/img/About_Us/photo1.jpg") no-repeat 0 0;
 }
 .photo2{
-background: url(./assets/img/about_us/photo2.jpg) no-repeat -1px 0;
+background: url("./assets/img/About_Us/photo2.jpg") no-repeat -1px 0;
 }
 .photo3{
-background: url(./assets/img/about_us/photo3.jpg) no-repeat 0 0;
+background: url("./assets/img/About_Us/photo3.jpg") no-repeat 0 0;
 }
 .about-us__name{
 box-sizing: border-box;
@@ -539,14 +539,14 @@ cursor:pointer;
 background-color: #f06c6440;
 }
 .link-fb{
-background-image: url(./assets/SocNet-icons/FB.svg);
+background-image: url("./assets/SocNet-icons/FB.svg");
 }
 .link-g_plus{
-background-image: url(./assets/SocNet-icons/google.svg);
+background-image: url("./assets/SocNet-icons/google.svg");
 }
 .link-tw{
-background-image: url(./assets/SocNet-icons/twitter.svg);
+background-image: url("./assets/SocNet-icons/twitter.svg");
 }
 .link-li{
-background-image: url(./assets/SocNet-icons/LI.svg);
+background-image: url("./assets/SocNet-icons/LI.svg");
 } 
