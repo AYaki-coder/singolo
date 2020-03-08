@@ -76,6 +76,14 @@ position: relative;
 .visibility_none{
 display:none;
 }
+.slider__button,
+.submit-button{
+outline: none;
+}
+.slider__button::-moz-focus-inner,
+.slider__button::-moz-focus-inner{
+border:0;
+}
 .slider__button{
 border: none;
 width: 46px;
