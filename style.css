@@ -73,7 +73,7 @@ box-sizing:border-box;
 border-bottom: 6px solid #ea676b;
 position: relative;
 }
-.visibility_none{
+.slider__title{
 display:none;
 }
 .slider__button,
