@@ -330,6 +330,10 @@ height:187px;
 background-color: #464b5e;
 margin-bottom: 20px;
 }
+.pic_selected{
+box-sizing: border-box; 
+border: 5px solid #F06C64;
+}
 .pic_01{
 background: url("./assets/img/Portfolio/portfolio1.jpg") no-repeat -8px -11px;
 }
