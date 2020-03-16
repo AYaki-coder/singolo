@@ -34,6 +34,13 @@ align-items: baseline;
 .snowflake{
 color: #f06c64;
 }
+/* .site-header__nav-bar{
+    width:372px;
+    height: 40px;
+    background-color:  #2d303a;
+    position: fixed; 
+    z-index: 10; 
+} */
 .site-header__navigation {
 width:372px;
 display:flex;
@@ -391,7 +398,6 @@ margin-bottom: 9px;
 }
 .about-us__description{
 line-height: 21px;
-text-align: left;
 margin-bottom: 24px;
 }
 .get-a-quote{
