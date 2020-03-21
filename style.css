@@ -144,11 +144,26 @@ position: absolute;
 display: inline-block;
 width: 240px;
 height: 484px; 
-background:
+/* background:
 url("./assets/img/Base.png") no-repeat  0 0,
-url("./assets/img/Shadow.png") no-repeat 0 0; 
+url("./assets/img/Shadow.png") no-repeat 0 0;  */
 top:53px;
 left:72px;
+}
+
+.shadow-1{
+    background: url("./assets/img/Shadow.png") no-repeat 0 0;
+    width: 240px;
+    height: 484px; 
+
+}
+.phone-vertical{
+    background: url("./assets/img/Base.png") no-repeat  0 0;
+    width: 215px;
+    height: 458px;
+    position: absolute;
+    top: 0;
+
 }
 .screen-1{
 width: 188px;
@@ -160,30 +175,30 @@ left:14px;
 }
 .phone-2{
 display: inline-block;
-width:500px;
-height: 500px; 
+width:216px;
+height: 458px; 
 position: absolute;
 top:1px;
 left:385px;
 }
 .phone-horizontal{
 background:  url("./assets/img/Base.png") no-repeat;
-width: 240px;
+width: 216px;
 height: 484px; 
 transform: rotate(90deg);
 margin-right: 0;
 position:absolute;
-left:96px;
-top:51px;
+left:108px;
+top:39px;
 }
-.shadow {
+.shadow-2 {
 width: 300px;
 height: 600px; 
 background:  url("./assets/img/Shadow.png") no-repeat;
 transform: rotate(90deg) scaleX(-1);
 position: absolute;
 left:34px;
-bottom:-63px; 
+bottom:-105px; 
 }
 .screen-2{
 width: 333px;
@@ -192,6 +207,9 @@ position: absolute;
 background: url("./assets/img/iphone-h-bg.png") no-repeat -125px -119px;
 top:187px;
 left:60px;
+}
+.turned-off{
+    display:none;
 }
 .title {
 font-size: 30px;

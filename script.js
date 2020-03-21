@@ -3,6 +3,8 @@ window.onload = function () {
     console.log('Hi,Lena!');
     addLinksClickHandler();
     document.addEventListener('scroll', onScroll);
+    addPhone1ClickHandler();
+    addPhone2ClickHandler();
     addTagsClickHandler();
     addGalleryClickHandler();
 }
@@ -63,6 +65,42 @@ const selectClickedLink = (clickedLink) => {
 }
 
 //Slider
+function addPhone1ClickHandler(){
+
+    let phone = document.querySelector('.phone-vertical');
+    let Screen = document.querySelector('.screen-1');
+    turnOnOffScreen(phone,Screen);
+
+}
+
+function addPhone2ClickHandler(){
+
+    let phone = document.querySelector('.phone-horizontal');
+    let Screen = document.querySelector('.screen-2');
+    turnOnOffScreen(phone,Screen);
+
+}
+
+
+
+
+// let Screen = document.querySelector('.screen-2');
+function turnOnOffScreen(phone,Screen){
+    phone.addEventListener('click', (e) =>{
+       
+
+       if(Screen.classList.contains('turned-off')){
+           Screen.classList.remove('turned-off');
+       } else {
+       Screen.classList.add('turned-off');
+    }
+    })
+
+
+}
+
+
+
 
 
 //Portfolio
