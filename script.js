@@ -2,8 +2,41 @@
 window.onload = function () {
     console.log('Hi,Lena!');
     addLinksClickHandler();
+    document.addEventListener('scroll', onScroll);
     addTagsClickHandler();
     addGalleryClickHandler();
+}
+
+
+
+function onScroll(){
+
+    const curPos = window.scrollY;
+    const section = document.querySelectorAll('.fabulous_spike');
+    const links = document.querySelectorAll('.navigation-link');
+
+    section.forEach((el) =>{
+        el.getAttribute('id');
+
+        if((el.parentNode.offsetTop + el.offsetTop) <= curPos && (el.parentNode.offsetTop + el.parentNode.offsetHeight) > curPos){
+            links.forEach((a) =>{
+                a.classList.remove('link_selected');
+                if( el.getAttribute('id') === a.getAttribute('href').substring(1)){
+                a.classList.add('link_selected');  
+                }
+            })
+        }
+    })
+
+    if (curPos == (document.documentElement.scrollHeight - document.documentElement.clientHeight)){
+        links.forEach((a) =>{
+            a.classList.remove('link_selected');
+
+        })
+        links[links.length-1].classList.add('link_selected');
+    
+    }
+
 }
 const addLinksClickHandler = () => {
 
@@ -18,7 +51,6 @@ const addLinksClickHandler = () => {
 
 const removeSelectedLink = () => {
     let links = document.querySelectorAll('.site-header__navigation .navigation-link');
-    console.log(links);
     links.forEach((link) => {
 
         link.classList.remove('link_selected');
@@ -29,7 +61,10 @@ const selectClickedLink = (clickedLink) => {
 
     clickedLink.classList.add('link_selected');
 }
+
 //Slider
+
+
 //Portfolio
  
 

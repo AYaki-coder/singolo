@@ -2,8 +2,10 @@
 margin:0;
 padding:0;
 }
+html,
 body{
 font-family: "Lato", Verdana sans-serif ;
+scroll-behavior: smooth;
 }
 .wrapper{
 width: 1020px;
@@ -13,11 +15,23 @@ margin:auto;
 width:940px;
 margin:0 auto;
 }
+
+section{
+    position: relative;
+}
+.fabulous_spike{
+    position: absolute;
+    top: -89px;
+}
 .site-header{
 color:#ffffff;
 background-color: #2d303a ;
 border-bottom: 6px solid  #323746;
 padding:40px 0 32px;
+/* height: 89px; */
+top: 0;
+position: sticky;
+z-index: 100;
 }
 .logo{
 text-transform: uppercase;
