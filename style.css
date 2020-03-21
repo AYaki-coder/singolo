@@ -279,10 +279,16 @@ background-image:url("./assets/icons/star.png");
 .portfolio{
 background-color: #2d303a;
 border-bottom:6px solid #323746;  
-padding:68px 0 67px;
+padding:68px 0 62px;
+}
+.portfolio-container{
+ width: 950px;
+ margin: auto; 
+
 }
 .portfolio__header{
 margin-bottom: 11px;
+padding-left: 5px;
 }
 .portfolio__title{
 letter-spacing: 0.2px;
@@ -291,7 +297,8 @@ letter-spacing: 0.2px;
 width: 288px;
 display:flex;
 justify-content: space-between;
-margin-bottom: 19px;
+margin-bottom: 14px;
+padding-left: 5px;
 }
 .portfolio__tag{
 box-sizing: border-box;
@@ -318,6 +325,7 @@ border: 1px solid #c5c5c5;
 color: #dedede;
 }
 .portfolio__album{
+padding: 5px 5px;    
 height:601px;
 display:flex;
 justify-content: space-between;
@@ -330,12 +338,10 @@ height:187px;
 background-color: #464b5e;
 margin-bottom: 20px;
 }
-/* .pic_selected{
-box-sizing: border-box;  
-outline: 5px solid #F06C64; */
-
-
-/* } */
+.pic_selected{
+ 
+outline: 5px solid #F06C64;
+}
 .pic_01{
 background: url("./assets/img/Portfolio/portfolio1.jpg") no-repeat -8px -11px;
 }
