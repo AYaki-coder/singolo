@@ -307,8 +307,8 @@ line-height: 19px;
 }
 .portfolio__tag:hover{
 cursor: pointer;
-border: 1px solid #f06c64;
-color:#f06c64;
+box-shadow: 0 0 16px 3px #f06c647a;
+
 }
 .portfolio__tag:first-child{
 margin-left: 1px;
@@ -330,10 +330,12 @@ height:187px;
 background-color: #464b5e;
 margin-bottom: 20px;
 }
-.pic_selected{
-box-sizing: border-box; 
-border: 5px solid #F06C64;
-}
+/* .pic_selected{
+box-sizing: border-box;  
+outline: 5px solid #F06C64; */
+
+
+/* } */
 .pic_01{
 background: url("./assets/img/Portfolio/portfolio1.jpg") no-repeat -8px -11px;
 }
