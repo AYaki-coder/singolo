@@ -255,7 +255,7 @@
                         </div>
                     </div>
                     <div class="get-a-quote__columns">
-                        <form action="index.html" method="POST">
+                        <form action="" method="POST">
                             <input type="text" name="name" id="name" required placeholder="Name (Required)"
                                 autocomplete="off">
                             <input type="email" name="email" id="email" required placeholder="Email (Required)"
@@ -286,6 +286,15 @@
                             <a class="get-a-quote__email subtitle-text"
                                 href="mailto:info@singolo.com">info@singolo.com</a>
                         </div>
+                    </div>
+                </div>
+                <div id="form-message" class="get-a-quote__message hidden">
+                    <div id="message">
+                        <p class="message__title">The letter was sent</p>
+                        <p id="subject-result" class="message__text"></p>
+                        <p id="description-result" class="message__text"></p>
+
+                      <button class="close-btn" id="close-btn">OK</button>  
                     </div>
                 </div>
             </section>

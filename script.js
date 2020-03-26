@@ -198,6 +198,35 @@ const  selectClickedPic = (clickedPic) => {
     clickedPic.classList.add('pic_selected');
 }
  //Get a Quote
+ 
+
+//  const button = document.querySelector('.submit-button');
+ const Close_Button = document.getElementById('close-btn');
+
+ 
+
+ document.forms[0].addEventListener('submit', (event) =>{
+     event.preventDefault();
+     const subject = document.getElementById('subject').value.toString();
+     const description = document.getElementById('description').value.toString();
+     document.getElementById('subject-result').innerText = subject == '' ? 'No subject' : `Subject: ${subject}`;
+     document.getElementById('description-result').innerText = description == '' ? 'No description' : `Description: ${description}`;
+     document.getElementById('form-message').classList.remove('hidden');
+
+
+ });
+
+ Close_Button.addEventListener('click', () =>{
+    document.getElementById('subject-result').innerText = '';
+    document.getElementById('description-result').innerText ='';
+    document.getElementById('form-message').classList.add('hidden');
+    document.forms[0].reset();
+
+
+
+ });
+
+
 
 
 
