@@ -1,4 +1,4 @@
-//Header
+
 window.onload = function () {
     console.log('Hi,Lena!');
     addLinksClickHandler();
@@ -10,7 +10,7 @@ window.onload = function () {
 }
 
 
-
+//Header
 function onScroll(){
 
     const curPos = window.scrollY;
@@ -81,10 +81,6 @@ function addPhone2ClickHandler(){
 
 }
 
-
-
-
-// let Screen = document.querySelector('.screen-2');
 function turnOnOffScreen(phone,Screen){
     phone.addEventListener('click', (e) =>{
        
@@ -95,9 +91,56 @@ function turnOnOffScreen(phone,Screen){
        Screen.classList.add('turned-off');
     }
     })
-
-
 }
+
+
+let items = document.querySelectorAll('.slider__slide');
+let currentItem = 0;
+let isEnabled = true;
+
+function changeCurrentItem (n){
+    currentItem = (n + items.length) % items.length;
+}
+
+function hideItem(direction){
+    isEnabled = false;
+    items[currentItem].classList.add(direction);
+    items[currentItem].addEventListener('animationend', function(){
+        this.classList.remove('slide_active', direction);
+    })
+}
+
+function showItem(direction){
+    isEnabled = false;
+    items[currentItem].classList.add('slide_next', direction);
+    items[currentItem].addEventListener('animationend', function(){
+        this.classList.remove('slide_next', direction);
+        this.classList.add('slide_active');
+        isEnabled = true;
+    })
+}
+
+function previousItem(n){
+    hideItem('to_right');
+    changeCurrentItem(n - 1);
+    showItem('from_left');
+}
+function nextItem(n){
+    hideItem('to_left');
+    changeCurrentItem(n + 1);
+    showItem('from_right');
+}
+
+document.querySelector('.button_left').addEventListener('click', function() {
+    if(isEnabled){
+        previousItem(currentItem);
+    }
+});
+document.querySelector('.button_right').addEventListener('click', function() {
+    if(isEnabled){
+        nextItem(currentItem);
+    }
+});
 
 
 

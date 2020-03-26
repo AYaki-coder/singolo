@@ -16,7 +16,7 @@
             <div class="fabulous_spike" id="home"></div>
             <div class="container">
                 <div class="site-header__columns">
-                    <h1 class="site-header__logo logo" >singolo<span class="snowflake">*</span></h1>
+                    <h1 class="site-header__logo logo">singolo<span class="snowflake">*</span></h1>
                     <nav class="site-header__nav-bar nav-bar">
                         <ul class="site-header__navigation">
                             <li class="site-header__nav-element"><a class="navigation-link link_selected"
@@ -25,38 +25,45 @@
                                     href="#services">SERVICES</a></li>
                             <li class="site-header__nav-element"><a class="navigation-link"
                                     href="#portfolio">PORTFOLIO</a></li>
-                            <li class="site-header__nav-element"><a class="navigation-link" href="#about-us">ABOUT</a></li>
-                            <li class="site-header__nav-element"><a class="navigation-link" href="#contact">CONTACT</a></li>
+                            <li class="site-header__nav-element"><a class="navigation-link" href="#about-us">ABOUT</a>
+                            </li>
+                            <li class="site-header__nav-element"><a class="navigation-link" href="#contact">CONTACT</a>
+                            </li>
                         </ul>
                     </nav>
                 </div>
             </div>
         </header>
         <main class="main">
-            <section class="slider"  >
-                    <div class="container">
+            <section class="slider">
+                <div class="slider__container">
                     <h2 class="slider__title">Slider</h2>
                     <button class="slider__button button_left" type="button"></button>
                     <button class="slider__button button_right" type="button"></button>
-                    <div class="slider__slide slide1">
-                        <div class="slider__phones phone-1">
-                            <div class="shadow-1"></div>
-                            <div class="phone-vertical"></div>
-                            <div class="screen-1"></div>
+                    <div class="slider__slide slide_active">
+                        <div class="slide1_container">
+                            <div class="slider__phones phone-1">
+                                <div class="shadow-1"></div>
+                                <div class="phone-vertical"></div>
+                                <div class="screen-1"></div>
+                            </div>
+                            <div class="slider__phones phone-2">
+                                <div class="shadow-2"></div>
+                                <div class="phone-horizontal"></div>
+                                <div class="screen-2"></div>
+                            </div>
                         </div>
-                        <div class="slider__phones phone-2">
-                            <div class="shadow-2"></div>
-                            <div class="phone-horizontal"></div>
-                            <div class="screen-2"></div>
-                        </div>
+                    </div>
+                    <div class="slider__slide">
+                        <img src="./assets/img/Slider/Slide2.jpg" alt="another 3 phones">
                     </div>
                 </div>
             </section>
-            <section class="services" >
+            <section class="services">
                 <div class="fabulous_spike" id="services"></div>
                 <div class="container">
                     <div class="services__header">
-                        <h2 class="services__title title" >Our Services</h2>
+                        <h2 class="services__title title">Our Services</h2>
                         <p class="services__text text">Fusce dapibus, tellus ac cursus commodo, tortor mauris
                             condimentum.
                             Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
@@ -130,8 +137,8 @@
                 </div>
             </section>
             <section class="portfolio">
-                <div class="fabulous_spike"  id="portfolio"></div>
-                <div class="portfolio-container">
+                <div class="fabulous_spike" id="portfolio"></div>
+                <div class="portfolio__container">
                     <div class="portfolio__header">
                         <h2 class="portfolio__title title">Portfolio</h2>
                         <p class="portfolio__text text">Duis mollis, est non commodo luctus, nisi erat porttitor
@@ -165,11 +172,11 @@
                     </div>
                 </div>
             </section>
-            <section class="about-us" >
+            <section class="about-us">
                 <div class="fabulous_spike" id="about-us"></div>
                 <div class="container">
                     <div class="about-us__header">
-                        <h2 class="about-us__title title" >About Us
+                        <h2 class="about-us__title title">About Us
 
                         </h2>
                         <p class="about-us__text text">Fusce dapibus, tellus ac cursus commodo, tortor mauris
@@ -237,11 +244,11 @@
                     </div>
                 </div>
             </section>
-            <section class="get-a-quote" >
+            <section class="get-a-quote">
                 <div class="fabulous_spike" id="contact"></div>
                 <div class="container">
                     <div class="get-a-quote__header">
-                        <h2 class="get-a-quote__title title" >Get a Quote</h2>
+                        <h2 class="get-a-quote__title title">Get a Quote</h2>
                         <div class="get-a-quote__text text">Fusce dapibus, tellus ac cursus commodo, tortor mauris
                             condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio
                             sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
@@ -249,8 +256,10 @@
                     </div>
                     <div class="get-a-quote__columns">
                         <form action="index.html" method="POST">
-                            <input type="text" name="name" id="name" required placeholder="Name (Required)" autocomplete="off">
-                            <input type="email" name="email" id="email" required placeholder="Email (Required)" autocomplete="off">
+                            <input type="text" name="name" id="name" required placeholder="Name (Required)"
+                                autocomplete="off">
+                            <input type="email" name="email" id="email" required placeholder="Email (Required)"
+                                autocomplete="off">
                             <input type="text" name="subject" id="subject" placeholder="Subject" autocomplete="off">
                             <textarea name="description" id="description" cols="30" rows="6"
                                 placeholder="Describe your project in detail..." autocomplete="off"></textarea>
@@ -299,7 +308,7 @@
             </div>
         </footer>
     </div>
-<script src=script.js></script>
+    <script src=script.js></script>
 </body>
 
 </html>

@@ -15,201 +15,12 @@ margin:auto;
 width:940px;
 margin:0 auto;
 }
-
 section{
-    position: relative;
-}
-.fabulous_spike{
-    position: absolute;
-    top: -89px;
-}
-.site-header{
-color:#ffffff;
-background-color: #2d303a ;
-border-bottom: 6px solid  #323746;
-padding:40px 0 32px;
-/* height: 89px; */
-top: 0;
-position: sticky;
-z-index: 100;
-}
-.logo{
-text-transform: uppercase;
-font-size: 25px;
-letter-spacing:-0.5px;
-line-height: 9px;
-font-weight: 400;
-}
-.site-header__columns{ 
-display:flex;
-justify-content: space-between;
-align-items: baseline;
-}
-.snowflake{
-color: #f06c64;
-}
-/* .site-header__nav-bar{
-    width:372px;
-    height: 40px;
-    background-color:  #2d303a;
-    position: fixed; 
-    z-index: 10; 
-} */
-.site-header__navigation {
-width:372px;
-display:flex;
-justify-content: space-between; 
-}
-.site-header__nav-element{
-font-size: 12px;
-text-align: justify; 
-text-decoration: none;
-list-style-type:none;
-letter-spacing: -0.2px;
-font-weight: 400;
-}
-.site-header__nav-element:before{
-color:#494e62;
-content: "·";
-padding-right: 14px;
-}
-.site-header__nav-element:first-child::before{
-display: none;
-} 
-.navigation-link{
-text-decoration: none;
-color:white;
-}
-.navigation-link:hover{
-cursor: pointer;
-color:#f06c64;
-}
-.link_selected{
-color:#f06c64;
-}
-.slider {
-height:600px;
-background-color: #f06c64;
-box-sizing:border-box;
-border-bottom: 6px solid #ea676b;
 position: relative;
 }
-.slider__title{
-display:none;
-}
-.slider__button,
-.submit-button{
-outline: none;
-}
-.slider__button::-moz-focus-inner,
-.slider__button::-moz-focus-inner{
-border:0;
-}
-.slider__button{
-border: none;
-width: 46px;
-height: 46px;
-background: url("./assets/icons/icon-button.png") no-repeat 13px 50%;
-border-radius: 50%;
-z-index: 1;
-}
-.slider__button:hover{
-cursor:pointer;
-background-color:#666d8926;
-}
-.button_left{
+.fabulous_spike{
 position: absolute;
-top:271px;
-left:29px;
-}
-.button_right{
-transform:scaleX(-1);
-position: absolute;
-top:271px;
-right:27px;
-}
-.slide1{
-box-sizing: border-box;
-padding-top:5px;
-width: 940px;
-height: 600px;
-display:inline-block;
-position:relative;
-}
-.slider__phones{
-margin-right: 0;
-} 
-.phone-1{
-position: absolute;
-display: inline-block;
-width: 240px;
-height: 484px; 
-/* background:
-url("./assets/img/Base.png") no-repeat  0 0,
-url("./assets/img/Shadow.png") no-repeat 0 0;  */
-top:53px;
-left:72px;
-}
-
-.shadow-1{
-    background: url("./assets/img/Shadow.png") no-repeat 0 0;
-    width: 240px;
-    height: 484px; 
-
-}
-.phone-vertical{
-    background: url("./assets/img/Base.png") no-repeat  0 0;
-    width: 215px;
-    height: 458px;
-    position: absolute;
-    top: 0;
-
-}
-.screen-1{
-width: 188px;
-height: 333px;
-position: absolute;
-background: url("./assets/img/iphone-v-bg.png") no-repeat -14px -135px;
-top:65px;
-left:14px;
-}
-.phone-2{
-display: inline-block;
-width:216px;
-height: 458px; 
-position: absolute;
-top:1px;
-left:385px;
-}
-.phone-horizontal{
-background:  url("./assets/img/Base.png") no-repeat;
-width: 216px;
-height: 484px; 
-transform: rotate(90deg);
-margin-right: 0;
-position:absolute;
-left:108px;
-top:39px;
-}
-.shadow-2 {
-width: 300px;
-height: 600px; 
-background:  url("./assets/img/Shadow.png") no-repeat;
-transform: rotate(90deg) scaleX(-1);
-position: absolute;
-left:34px;
-bottom:-105px; 
-}
-.screen-2{
-width: 333px;
-height: 188px;
-position: absolute;
-background: url("./assets/img/iphone-h-bg.png") no-repeat -125px -119px;
-top:187px;
-left:60px;
-}
-.turned-off{
-    display:none;
+top: -89px;
 }
 .title {
 font-size: 30px;
@@ -244,6 +55,277 @@ font-weight: 400;
 text-align: justify;
 letter-spacing: -0.2px;
 }
+.social-link-block{
+display: flex;
+width:152px;
+height:32px;
+justify-content: space-between;
+}
+.social-link{
+width:32px;
+height:32px;
+background-repeat: no-repeat;
+border-radius: 50%;
+}
+.social-link a{
+display: block;
+}
+.social-link:hover{
+cursor:pointer;
+background-color: #f06c6440;
+}
+.link-fb{
+background-image: url("./assets/SocNet-icons/FB.svg");
+}
+.link-g_plus{
+background-image: url("./assets/SocNet-icons/google.svg");
+}
+.link-tw{
+background-image: url("./assets/SocNet-icons/twitter.svg");
+}
+.link-li{
+background-image: url("./assets/SocNet-icons/LI.svg");
+} 
+
+/* Header */
+.site-header{
+color:#ffffff;
+background-color: #2d303a ;
+border-bottom: 6px solid  #323746;
+padding:40px 0 32px;
+/* height: 89px; */
+top: 0;
+position: sticky;
+z-index: 100;
+}
+.logo{
+text-transform: uppercase;
+font-size: 25px;
+letter-spacing:-0.5px;
+line-height: 9px;
+font-weight: 400;
+}
+.site-header__columns{ 
+display:flex;
+justify-content: space-between;
+align-items: baseline;
+}
+.snowflake{
+color: #f06c64;
+}
+.site-header__navigation {
+width:372px;
+display:flex;
+justify-content: space-between; 
+}
+.site-header__nav-element{
+font-size: 12px;
+text-align: justify; 
+text-decoration: none;
+list-style-type:none;
+letter-spacing: -0.2px;
+font-weight: 400;
+}
+.site-header__nav-element:before{
+color:#494e62;
+content: "·";
+padding-right: 14px;
+}
+.site-header__nav-element:first-child::before{
+display: none;
+} 
+.navigation-link{
+text-decoration: none;
+color:white;
+}
+.navigation-link:hover{
+cursor: pointer;
+color:#f06c64;
+}
+.link_selected{
+color:#f06c64;
+}
+
+/* Slider */
+.slider {
+height:600px;
+box-sizing:border-box;
+border-bottom: 6px solid #ea676b;
+position: relative;
+}
+.slider__title{
+display:none;
+}
+.slider__container{
+width: 1020px;
+height: 100%;
+position: relative;
+overflow: hidden;
+}
+.slider__button,
+.submit-button{
+outline: none;
+}
+.slider__button::-moz-focus-inner,
+.slider__button::-moz-focus-inner{
+border:0;
+}
+.slider__button{
+border: none;
+width: 46px;
+height: 46px;
+background: url("./assets/icons/icon-button.png") no-repeat 13px 50%;
+border-radius: 50%;
+z-index: 1;
+}
+.slider__button:hover{
+cursor:pointer;
+background-color:#666d8926;
+}
+.button_left{
+position: absolute;
+top:271px;
+left:29px;
+}
+.button_right{
+transform:scaleX(-1);
+position: absolute;
+top:271px;
+right:27px;
+}
+.slider__slide{
+display: none;
+position:relative;
+width: 1020px;
+height: 600px;
+animation: 0.5s ease-in-out;
+}
+.slide_active,
+.slide_next{
+display: block;
+
+}
+.slide_next{
+position: absolute;
+top: 0;
+width: 100%;
+}
+.to_left{
+animation-name: left;
+}
+.to_right{
+animation-name: right;
+animation-direction: reverse;
+}
+.from_left{
+    animation-name: left;
+    animation-direction: reverse;
+}
+.from_right{
+    animation-name: right;
+}
+
+@keyframes left{
+ from {
+    left: 0;
+ }
+ to {
+     left: -100%;
+ }
+
+}
+@keyframes right{
+    from {
+       left: 100%;
+    }
+    to {
+        left: 0;
+    }
+   
+}
+
+.slide1_container{
+height: 100%;
+width: 100%;
+box-sizing: border-box;
+background-color: #f06c64;
+padding-top:5px;
+display:inline-block;
+}
+.slider__phones{
+margin-right: 0;
+} 
+.phone-1{
+position: absolute;
+display: inline-block;
+width: 240px;
+height: 484px; 
+top:53px;
+left:112px;
+}
+.shadow-1{
+background: url("./assets/img/Shadow.png") no-repeat 0 0;
+width: 240px;
+height: 484px; 
+
+}
+.phone-vertical{
+background: url("./assets/img/Base.png") no-repeat  0 0;
+width: 215px;
+height: 458px;
+position: absolute;
+top: 0;
+}
+.screen-1{
+width: 188px;
+height: 333px;
+position: absolute;
+background: url("./assets/img/iphone-v-bg.png") no-repeat -14px -135px;
+top:65px;
+left:14px;
+}
+.phone-2{
+display: inline-block;
+width:216px;
+height: 458px; 
+position: absolute;
+top:1px;
+left:425px;
+}
+.phone-horizontal{
+background: url(./assets/img/Base.png) no-repeat;
+width: 216px;
+height: 458px;
+transform: rotate(90deg);
+margin-right: 0;
+position: absolute;
+left: 121px;
+top: 52px;
+}
+.shadow-2 {
+width: 300px;
+height: 600px; 
+background:  url("./assets/img/Shadow.png") no-repeat;
+transform: rotate(90deg) scaleX(-1);
+position: absolute;
+left:34px;
+bottom:-105px; 
+}
+.screen-2{
+width: 333px;
+height: 188px;
+position: absolute;
+background: url("./assets/img/iphone-h-bg.png") no-repeat -125px -119px;
+top:187px;
+left:60px;
+}
+.turned-off{
+display:none;
+}
+
+
+/* Services */
+
 .services{
 background-color: #f2f2f2;
 border-bottom: 6px solid  #ffffff;
@@ -308,15 +390,16 @@ background-image:url("./assets/icons/bubble.png");
 .icon-6{
 background-image:url("./assets/icons/star.png");
 }
+
+/* Portfolio */
 .portfolio{
 background-color: #2d303a;
 border-bottom:6px solid #323746;  
 padding:68px 0 62px;
 }
-.portfolio-container{
- width: 950px;
- margin: auto; 
-
+.portfolio__container{
+width: 950px;
+margin: auto; 
 }
 .portfolio__header{
 margin-bottom: 11px;
@@ -347,7 +430,6 @@ line-height: 19px;
 .portfolio__tag:hover{
 cursor: pointer;
 box-shadow: 0 0 16px 3px #f06c647a;
-
 }
 .portfolio__tag:first-child{
 margin-left: 1px;
@@ -371,7 +453,6 @@ background-color: #464b5e;
 margin-bottom: 20px;
 }
 .pic_selected{
- 
 outline: 5px solid #F06C64;
 }
 .pic_01{
@@ -410,6 +491,8 @@ background: url("./assets/img/Portfolio/portfolio11.jpg") no-repeat -144px  -175
 .pic_12{
 background: url("./assets/img/Portfolio/portfolio12.jpg") no-repeat -36px  -60px;
 }
+
+/* About Us */
 .about-us{
 background-color: #f2f2f2;
 border-bottom:6px solid #ffffff;  
@@ -444,6 +527,8 @@ margin-bottom: 9px;
 line-height: 21px;
 margin-bottom: 24px;
 }
+
+/* Get a Quote */
 .get-a-quote{
 background-color: #f06c64;
 border-bottom:6px solid #ea676b;  
@@ -563,6 +648,8 @@ background-image: url("./assets/Get_a_Quote/phone.svg");
 background-position: 0px 9px;
 background-image: url("./assets/Get_a_Quote/mail.svg");
 }
+
+/* Footer */
 .site-footer{
 background-color: #2d303a;
 padding: 22px 0 22px;
@@ -583,34 +670,3 @@ padding-left: 2px;
 text-align: left;
 color:#666d89;
 }
-.social-link-block{
-display: flex;
-width:152px;
-height:32px;
-justify-content: space-between;
-}
-.social-link{
-width:32px;
-height:32px;
-background-repeat: no-repeat;
-border-radius: 50%;
-}
-.social-link a{
-display: block;
-}
-.social-link:hover{
-cursor:pointer;
-background-color: #f06c6440;
-}
-.link-fb{
-background-image: url("./assets/SocNet-icons/FB.svg");
-}
-.link-g_plus{
-background-image: url("./assets/SocNet-icons/google.svg");
-}
-.link-tw{
-background-image: url("./assets/SocNet-icons/twitter.svg");
-}
-.link-li{
-background-image: url("./assets/SocNet-icons/LI.svg");
-} 
