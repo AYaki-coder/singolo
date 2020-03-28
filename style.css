@@ -479,11 +479,11 @@ margin-bottom: 45px;
         margin-bottom: 4.5vw;
         }
 }
-@media(max-width:1019px){
+/* @media(max-width:1019px){
     .services__header{
         margin-bottom: 6vw;
         }
-}
+} */
 .services__title{
 letter-spacing: 0px;
 }
@@ -584,30 +584,9 @@ display: -webkit-box;
 background-position:0px 2px ; 
 background-repeat: no-repeat;
 /* width:25%;  */
-min-width: 80px; 
+min-width: 75px; 
 min-height: 62px;
 }
-/* @media (max-width:1019px){
-    .services__icon{
-        width:18%;
-        }
-}
-@media (max-width:940px){
-    .services__icon{
-        width:20%;
-        }
-}
-@media (max-width:880px){
-    .services__icon{
-        width:22%;
-        }
-}
-@media (max-width:820px){
-    .services__icon{
-        width:25%;
-        }
-} */
-
 
 .icon-1 {
 background-image: url("./assets/icons/pen.png");
@@ -735,22 +714,73 @@ background-color: #f2f2f2;
 border-bottom:6px solid #ffffff;  
 padding:68px 0 67px;
 }
+@media(max-width:1019px){
+    .about-us{
+        padding:8vw 0 8.7vw;
+        }
+}
+@media(max-width:767px){
+    .about-us{
+        padding:12vw 0 2vw;
+        }
+}
 .about-us__header{
 margin-bottom: 45px;
 }
+@media (max-width:1019px){
+    .about-us__header{
+        margin-bottom: 5vw;
+        }
+}
+@media (max-width:767px){
+.about-us__columns{
+    flex-wrap:wrap;
+}
+}
+
+.about-us__column{
+    width: 300px;
+}
+@media (max-width:1019px){
+.about-us__column{
+width:calc(30vw - 10px);
+}
+}
+@media (max-width:767px){
+    .about-us__column{
+    width:84vw;
+    }
+    }
 .about-us__photo{
 height:300px;
 background-color:#464b5e;
 margin-bottom: 17px;
+background-size: cover;
+}
+@media (max-width:1019px){
+    .about-us__photo{
+        height: calc(30vw - 10px);
+        margin-bottom: 1.5vw;
+    }
+}
+@media (max-width:767px){
+    .about-us__photo{
+        height:84vw;
+        margin-bottom: 5vw;
+    }
 }
 .photo1{
 background: url("./assets/img/About_Us/photo1.jpg") no-repeat 0 0;
+background-size: cover;
 }
+
 .photo2{
 background: url("./assets/img/About_Us/photo2.jpg") no-repeat -1px 0;
+background-size: cover;
 }
 .photo3{
 background: url("./assets/img/About_Us/photo3.jpg") no-repeat 0 0;
+background-size: cover;
 }
 .about-us__name{
 box-sizing: border-box;
@@ -760,10 +790,31 @@ white-space: nowrap;
 text-overflow: ellipsis;
 margin-bottom: 9px;
 }
+@media (max-width:1019px){
+    .about-us__name{
+        margin-bottom: 0;
+    }
+}
+@media (max-width:767px){
+    .about-us__name{
+        margin-bottom: 1vw;
+    }
+}
 .about-us__description{
 line-height: 21px;
 margin-bottom: 24px;
 }
+@media (max-width:1019px){
+    .about-us__description{
+        margin-bottom: 2vw;
+    }
+}
+@media (max-width:767px){
+    .about-us__social{
+        margin-bottom: 10vw;
+    }
+}
+
 
 /* Get a Quote */
 .get-a-quote{
