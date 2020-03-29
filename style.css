@@ -663,6 +663,11 @@ padding-left: 5px;
         
         }   
 }
+@media(max-width:350px){
+    .portfolio__tag-box{
+        width: auto;
+    }
+}
 .portfolio__tag{
 box-sizing: border-box;
 border: 1px solid #666d89;

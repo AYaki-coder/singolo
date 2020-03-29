@@ -156,9 +156,35 @@ const addTagsClickHandler = () => {
             let clickedTag = e.target;
             removeSelectedTag();
             selectClickedTag(clickedTag);
-            //прицепить перетассовку картинок
+            mainShuffle();
         }
     })
+}
+
+function  shuffleImages(arr) {
+    let j, temp;
+    for (let i = arr.length - 1; i > 0; i--) {
+        j = Math.floor(Math.random() * (i));
+        temp = arr[j];
+        arr[j] = arr[i];
+        arr[i] = temp;
+    }
+    return arr;
+}
+
+const mainShuffle = () => {
+    const ImageBoxes = document.querySelectorAll('.portfolio__pics');
+    let BoxesArr = [];
+    const ParentBox = document.querySelector('.portfolio__album');
+    for (let i = 0; i < ImageBoxes.length; i++){
+        BoxesArr[i] =  ImageBoxes[i].cloneNode(true);
+         }
+    shuffleImages(BoxesArr);
+
+    ParentBox.innerHTML = '';
+    for (let i = 0; i < ImageBoxes.length; i++){
+        ParentBox.append(BoxesArr[i]) ;
+    }
 }
 
 const removeSelectedTag = () => {
