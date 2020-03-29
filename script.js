@@ -1,15 +1,16 @@
 
 window.onload = function () {
-    console.log('Hi,Lena!');
     addLinksClickHandler();
     document.addEventListener('scroll', onScroll);
     addPhone1ClickHandler();
     addPhone2ClickHandler();
     addTagsClickHandler();
     addGalleryClickHandler();
+    addHamburgerClickHandler();
+    addMobileNavClickHandler();
 }
 
-
+const myBody = document.querySelector('body');
 //Header
 function onScroll(){
 
@@ -35,8 +36,8 @@ function onScroll(){
             a.classList.remove('link_selected');
 
         })
-        links[links.length-1].classList.add('link_selected');
-    
+        links[links.length - 1].classList.add('link_selected');
+        links[links.length / 2 - 1].classList.add('link_selected');
     }
 
 }
@@ -63,6 +64,65 @@ const selectClickedLink = (clickedLink) => {
 
     clickedLink.classList.add('link_selected');
 }
+//hamburger
+const addHamburgerClickHandler = () =>{
+    let hamburgers = document.querySelectorAll('.hamburger');
+    console.log(hamburgers);
+    hamburgers.forEach((burger) => {
+        console.log(burger);
+        burger.addEventListener('click', (e) =>{
+            sh(e);
+        });
+
+    });
+
+}
+const addMobileNavClickHandler = () =>{
+    document.querySelector('.site-header__links-list').addEventListener('click', (e) => {
+        if (e.target.classList.contains('navigation-link')) {
+            let window = document.querySelector('.site-header__mobile-navigation');
+            window.classList.add ('hidden');
+        }
+    });
+}
+
+
+
+
+function sh(event){
+    let window = document.querySelector('.site-header__mobile-navigation');
+    if(window.classList.contains('hidden')){
+    window.classList.remove('hidden');
+    myBody.classList.add('noscroll');
+    } else {
+        window.classList.add ('hidden');
+        myBody.classList.remove('noscroll');
+
+    }
+
+}
+
+
+// function showMobileNavigation(direction){
+//     isEnabled = false;
+//     document.querySelector('.site-header__mobile-container').classList.add('.nav_active', direction);
+//     isEnabled = true;
+
+    // items[currentItem].classList.add('slide_next', direction);
+    // items[currentItem].addEventListener('animationend', function(){
+    //     this.classList.remove('slide_next', direction);
+    //     this.classList.add('slide_active');
+    //     isEnabled = true;
+    // })
+// }
+// function hideMobileNavigation(direction){
+//     isEnabled = false;
+//     items[currentItem].classList.add(direction);
+//     items[currentItem].addEventListener('animationend', function(){
+//         this.classList.remove('slide_active', direction);
+//     })
+// }
+
 
 //Slider
 function addPhone1ClickHandler(){
@@ -238,6 +298,7 @@ const  selectClickedPic = (clickedPic) => {
      document.getElementById('subject-result').innerText = subject == '' ? 'No subject' : `Subject: ${subject}`;
      document.getElementById('description-result').innerText = description == '' ? 'No description' : `Description: ${description}`;
      document.getElementById('form-message').classList.remove('hidden');
+     myBody.classList.add('noscroll');
 
 
  });
@@ -246,6 +307,7 @@ const  selectClickedPic = (clickedPic) => {
     document.getElementById('subject-result').innerText = '';
     document.getElementById('description-result').innerText ='';
     document.getElementById('form-message').classList.add('hidden');
+    myBody.classList.remove('noscroll');
     document.forms[0].reset();
 
 
