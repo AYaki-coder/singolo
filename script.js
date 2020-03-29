@@ -174,8 +174,8 @@ const selectClickedTag = (clickedTag) => {
 const addGalleryClickHandler = () => {
 
     document.querySelector('.portfolio__album').addEventListener('click', (e) =>{
-    if (e.target.classList.contains('portfolio__pics')) {
-        let clickedPic = e.target;
+    if (e.target.classList.contains('portfolio__image')) {
+        let clickedPic = e.target.parentNode;
         removeSelectedPic();
         selectClickedPic(clickedPic);
     }
