@@ -1143,10 +1143,16 @@ display:none;
 background-color: #2d303a;
 padding: 22px 0 22px;
 }
+
 .site-footer__columns{
 display:flex;
 justify-content: space-between;
 align-items: center;
+}
+@media(max-width:767px){
+    .site-footer__columns{
+        justify-content: center;  
+    }
 }
 .copyright-text+.copyright-text::before{
 color:#494e62;
@@ -1158,4 +1164,9 @@ line-height: 22px;
 padding-left: 2px;
 text-align: left;
 color:#666d89;
+}
+@media(max-width:767px){
+    .site-footer__copyright{
+        display: none;
+    } 
 }
