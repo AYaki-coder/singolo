@@ -518,6 +518,9 @@ left:60px;
 .turned-off{
 display:none;
 }
+.responsive-slide1{
+    height: inherit;
+}
 .slide-image{
 width: 100%;
 height: inherit;
